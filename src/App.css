@@ -183,6 +183,21 @@
   opacity: 0.5;
 }
 
+.btn-link {
+  opacity: 1;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-link:hover {
+  background: rgba(212, 175, 55, 0.1);
+  border-color: #F4D03F;
+  color: #F4D03F;
+}
+
 .canvas-container {
   width: 100vw;
   height: 100vh;

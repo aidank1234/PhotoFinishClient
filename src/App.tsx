@@ -217,7 +217,14 @@ function App() {
         </div>
         <div className="hero-buttons">
           <button className="btn btn-primary" disabled>Presale</button>
-          <button className="btn btn-secondary" disabled>Learn More</button>
+          <a 
+            href="https://visuals-1.gitbook.io/photo-finish-docs" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="btn btn-secondary btn-link"
+          >
+            Learn More
+          </a>
         </div>
       </div>
     </div>
